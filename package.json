@@ -1,5 +1,6 @@
-
 {
+  "name": "gpt-alice-vercel-kv",
+  "version": "1.0.0",
   "type": "module",
   "dependencies": {
     "@google/generative-ai": "^0.19.0"
