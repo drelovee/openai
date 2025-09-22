@@ -1,0 +1,20 @@
+{
+  "name": "gpt-alice-vercel-kv",
+  "version": "1.0.0",
+  "description": "Yandex Alice skill -> OpenAI via Vercel with Upstash Redis memory",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.28.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "openai": "^4.58.1"
+  }
+}
